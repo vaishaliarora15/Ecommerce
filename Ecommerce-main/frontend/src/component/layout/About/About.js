@@ -1,11 +1,11 @@
 import React from "react";
 import "./aboutSection.css";
 import { Button, Typography, Avatar } from "@material-ui/core";
-import YouTubeIcon from "@material-ui/icons/YouTube";
+
 import InstagramIcon from "@material-ui/icons/Instagram";
 const About = () => {
   const visitInstagram = () => {
-    window.location = "https://instagram.com/meabhisingh";
+    window.location = "https://instagram.com/v.a.i.s.h.a.l.i.15";
   };
   return (
     <div className="aboutSection">
@@ -18,7 +18,7 @@ const About = () => {
           <div>
             <Avatar
               style={{ width: "10vmax", height: "10vmax", margin: "2vmax 0" }}
-              src="https://res.cloudinary.com/tripleayt/image/upload/v1631555947/products/jpyibarlaxawvcvqjv5b.png"
+              src="https://drive.google.com/file/d/1YPN3HMxiYKyJHzRZEN0KaBADzCtVHMtT/view?usp=sharing"
               alt="Founder"
             />
             <Typography>Vaishali Arora</Typography>
@@ -32,13 +32,11 @@ const About = () => {
           <div className="aboutSectionContainer2">
             <Typography component="h2">Our Brands</Typography>
             <a
-              href="https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw"
-              target="blank"
-            >
-              <YouTubeIcon className="youtubeSvgIcon" />
+              href="https://www.linkedin.com/in/know15vaishali/" target="blank">
+              
             </a>
 
-            <a href="https://instagram.com/meabhisingh" target="blank">
+            <a href="https://instagram.com/v.a.i.s.h.a.l.i.15" target="blank">
               <InstagramIcon className="instagramSvgIcon" />
             </a>
           </div>

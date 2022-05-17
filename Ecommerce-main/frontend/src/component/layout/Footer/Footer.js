@@ -15,16 +15,15 @@ const Footer = () => {
 
       <div className="midFooter">
         <h1>ECOMMERCE.</h1>
-        <p>High Quality is our first priority</p>
+        
 
-        <p>Copyrights 2021 &copy; MeAbhiSingh</p>
+        <p>Copyrights 2021 &copy; MeVaishaliArora</p>
       </div>
 
       <div className="rightFooter">
         <h4>Follow Us</h4>
         <a href="http://instagram.com/v.a.i.s.h.a.l.i.15">Instagram</a>
-        <a href="http://youtube.com/6packprogramemr">Youtube</a>
-        <a href="http://instagram.com/meabhisingh">Facebook</a>
+        <a href="https://www.linkedin.com/in/know15vaishali/">Facebook</a>
       </div>
     </footer>
   );
